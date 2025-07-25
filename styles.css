@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.youtube-icon img {
+    width: 100px;
+    height: auto; /* Adjust size as needed */
+}
+
+.title {
+    font-size: 24px;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}
+
+.upload-box {
+    border: 2px dashed lightgrey;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.upload-box label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.upload-box input {
+    margin-top: 10px;
+}
+
+.scanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.scanner img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.loading-bar {
+    width: 100px;
+    height: 10px;
+    background-color: lightgrey;
+    position: relative;
+}
+
+.progress {
+    width: 0;
+    height: 100%;
+    background-color: green;
+    transition: width 2s; /* Adjust duration as needed */
+}
+
+.loading-message {
+    margin-left: 10px;
+}
+
+.success-popup {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #c3e6cb;
+}
+
+.hidden {
+    display: none;
+}
+
+.join-button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
